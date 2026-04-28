@@ -2,10 +2,11 @@
 
 function renderThumbnail(photo, index) {
   return `
-    <article class="photo-card" role="listitem">
+    <li class="photo-card">
       <button
         class="photo-btn"
-        onclick="openModal(${index})"
+        type="button"
+        data-index="${index}"
         aria-label="Foto öffnen: ${photo.alt}"
       >
         <img
@@ -15,7 +16,7 @@ function renderThumbnail(photo, index) {
           loading="lazy"
         />
       </button>
-    </article>
+    </li>
   `;
 }
 
@@ -28,6 +29,13 @@ function renderGallery() {
   }
 
   gallery.innerHTML = galleryHTML;
+
+  // klick auf foto button -> modal auf, ohne inline onclick
+  gallery.addEventListener("click", function (event) {
+    const btn = event.target.closest(".photo-btn");
+    if (!btn) return;
+    openModal(Number(btn.dataset.index));
+  });
 }
 
 // modal
