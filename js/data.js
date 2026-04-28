@@ -3,8 +3,8 @@ const PHOTOS = [
     id: 1,
     src: "https://picsum.photos/seed/alaska-glacier/800/600",
     thumbnail: "https://picsum.photos/seed/alaska-glacier/300/300",
-    alt: "Alaska Gletscher Landschaft mit schneebedeckten Bergen und eisblauem Wasser",
-    title: "Alaska-810433_1280"
+    alt: "Hohe Bäume im Wald, von unten fotografiert",
+    title: "Forest-Trees-2841"
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ const PHOTOS = [
     id: 3,
     src: "https://picsum.photos/seed/storm-clouds-dark/800/600",
     thumbnail: "https://picsum.photos/seed/storm-clouds-dark/300/300",
-    alt: "Dunkle dramatische Gewitterwolken am Himmel",
-    title: "Storm-Clouds-4531"
+    alt: "Kahle Äste mit Knospen vor der Sonne",
+    title: "Branches-Spring-3372"
   },
   {
     id: 4,
@@ -31,29 +31,29 @@ const PHOTOS = [
     id: 5,
     src: "https://picsum.photos/seed/hurricane-from-space/800/600",
     thumbnail: "https://picsum.photos/seed/hurricane-from-space/300/300",
-    alt: "Luftaufnahme eines großen Hurrikans von oben gesehen",
-    title: "Hurricane-Earth-2847"
+    alt: "Ruhiger Bergsee mit Berggipfeln im Hintergrund",
+    title: "Mountain-Lake-5102"
   },
   {
     id: 6,
     src: "https://picsum.photos/seed/mountain-lake-canada/800/600",
     thumbnail: "https://picsum.photos/seed/mountain-lake-canada/300/300",
-    alt: "Klarer Bergsee umgeben von Kiefern und Felsgipfeln",
-    title: "Mountain-Lake-5102"
+    alt: "Kirschblüten in Nahaufnahme",
+    title: "Cherry-Blossom-2271"
   },
   {
     id: 7,
     src: "https://picsum.photos/seed/duck-swimming-lake/800/600",
     thumbnail: "https://picsum.photos/seed/duck-swimming-lake/300/300",
-    alt: "Ente schwimmt ruhig auf einem klaren blauen See",
-    title: "Duck-Water-1788"
+    alt: "Wassertropfen auf einer dunklen Oberfläche, nah dran",
+    title: "Water-Drops-6519"
   },
   {
     id: 8,
     src: "https://picsum.photos/seed/person-rock-night-sea/800/600",
     thumbnail: "https://picsum.photos/seed/person-rock-night-sea/300/300",
-    alt: "Silhouette einer Person auf einem Felsen am Meer bei Nacht",
-    title: "Person-Night-Sea-6643"
+    alt: "Schiffe auf dem Meer in dichtem Nebel",
+    title: "Foggy-Harbor-3801"
   },
   {
     id: 9,
