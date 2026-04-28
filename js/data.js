@@ -24,8 +24,8 @@ const PHOTOS = [
     id: 4,
     src: "https://picsum.photos/seed/blue-tit-bird/800/600",
     thumbnail: "https://picsum.photos/seed/blue-tit-bird/300/300",
-    alt: "Blaumeise sitzt auf einem Ast in der Natur",
-    title: "Blue-Tit-Bird-3291"
+    alt: "Vorderdeck eines Segelboots auf dem Wasser",
+    title: "Sailboat-Bow-4488"
   },
   {
     id: 5,
