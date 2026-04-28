@@ -244,6 +244,11 @@ body {
   outline-offset: 3px;
 }
 
+/* prev pfeil ist einfach das selbe icon nur gedreht */
+.prev-btn img {
+  transform: rotate(180deg);
+}
+
 .photo-counter {
   font-size: 1rem;
   font-weight: 500;
