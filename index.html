@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotogram – Foto Album</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="site-logo" aria-label="Fotogram – Go to homepage">
+          <span class="logo-icon" aria-hidden="true">✿</span>
+          <span class="logo-text">Fotogram</span>
+        </a>
+      </div>
+    </header>
+
+
+    <main class="main-content" id="main">
+
+      <section class="hero-section" aria-labelledby="page-title">
+        <h1 id="page-title">Foto Album</h1>
+      </section>
+
+      <section class="gallery-section" aria-label="Photo gallery">
+        <div id="gallery" class="photo-grid" role="list">
+          
+        </div>
+      </section>
+
+    </main>
+
+    
+    <dialog
+      class="photo-modal"
+      id="photo-modal"
+      aria-labelledby="modal-title"
+      aria-modal="true"
+    >
+      <div class="modal-content">
+
+        <header class="modal-header">
+          <h2 class="modal-title" id="modal-title">Photo title</h2>
+          <button
+            class="modal-close-btn"
+            id="close-btn"
+            aria-label="Close photo view"
+          >
+            ✕
+          </button>
+        </header>
+
+        <figure class="modal-figure">
+          <img
+            class="modal-image"
+            id="modal-image"
+            src=""
+            alt=""
+          />
+          <figcaption class="modal-caption" id="modal-caption"></figcaption>
+        </figure>
+
+        <div class="modal-controls">
+          <button class="nav-btn prev-btn" id="prev-btn" aria-label="Previous photo">
+            ←
+          </button>
+          <span class="photo-counter" id="photo-counter" aria-live="polite">
+            1/12
+          </span>
+          <button class="nav-btn next-btn" id="next-btn" aria-label="Next photo">
+            →
+          </button>
+        </div>
+
+      </div>
+    </dialog>
+
+ 
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="footer-logo-text">
+          <strong>Developer Akademie</strong>
+        </p>
+        <p class="footer-copyright">© 2023 Developer Akademie GmbH</p>
+      </div>
+    </footer>
+
+   
+    <script src="js/data.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
