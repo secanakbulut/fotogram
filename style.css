@@ -321,3 +321,19 @@ body {
     font-size: 1rem;
   }
 }
+
+/* bei ganz kleinen handys trotzdem 2 spalten behalten */
+@media (max-width: 320px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+  }
+
+  .photo-thumbnail {
+    height: 120px;
+  }
+
+  .main-content {
+    padding: var(--spacing-lg) var(--spacing-sm);
+  }
+}
