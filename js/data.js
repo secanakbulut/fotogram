@@ -10,8 +10,8 @@ const PHOTOS = [
     id: 2,
     src: "https://picsum.photos/seed/city-night-rain/800/600",
     thumbnail: "https://picsum.photos/seed/city-night-rain/300/300",
-    alt: "Dunkle Stadtstraße bei Nacht mit bunten Neonreflexionen im Regen",
-    title: "City-Night-Rain-2291"
+    alt: "Holzsteg am Wasser mit einer leeren Bank",
+    title: "Pier-Bench-1192"
   },
   {
     id: 3,
