@@ -38,8 +38,12 @@ function updateModalContent() {
   const photo = PHOTOS[currentIndex];
   const img = document.getElementById("modal-image");
 
+  img.style.visibility = "hidden";
   img.src = photo.src;
   img.alt = photo.alt;
+  img.onload = function() {
+    img.style.visibility = "visible";
+  };
 
   document.getElementById("modal-title").textContent = photo.title;
   document.getElementById("modal-caption").textContent = photo.alt;
