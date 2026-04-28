@@ -59,28 +59,28 @@ const PHOTOS = [
     id: 9,
     src: "https://picsum.photos/seed/sparrow-sitting-rock/800/600",
     thumbnail: "https://picsum.photos/seed/sparrow-sitting-rock/300/300",
-    alt: "Kleiner Spatz sitzt auf einem Felsen",
-    title: "Sparrow-Rock-2291"
+    alt: "Bürohochhaus bei Nacht, viele Fenster beleuchtet",
+    title: "Office-Tower-Night-7723"
   },
   {
     id: 10,
     src: "https://picsum.photos/seed/snow-leopard-wild/800/600",
     thumbnail: "https://picsum.photos/seed/snow-leopard-wild/300/300",
-    alt: "Schneeleopard ruht auf Felsen in seiner natürlichen Umgebung",
-    title: "Snow-Leopard-8821"
+    alt: "Stadtsilhouette am Wasser im Sonnenuntergang",
+    title: "City-Skyline-Sunset-5566"
   },
   {
     id: 11,
     src: "https://picsum.photos/seed/mountain-trail-landscape/800/600",
     thumbnail: "https://picsum.photos/seed/mountain-trail-landscape/300/300",
-    alt: "Berglandschaft mit farbenfrohen Felspfaden unter blauem Himmel",
-    title: "Mountain-Trail-4471"
+    alt: "Frostige Wiese im Morgenlicht mit einem schmalen Asphaltstreifen",
+    title: "Frosty-Field-Morning-9914"
   },
   {
     id: 12,
     src: "https://picsum.photos/seed/frost-tree-winter/800/600",
     thumbnail: "https://picsum.photos/seed/frost-tree-winter/300/300",
-    alt: "Frostbedeckter Baum mit weißen Ästen in einer Winterlandschaft",
-    title: "Frost-Tree-Winter-3319"
+    alt: "Person von hinten, schaut auf einen Bergsee mit Schneegipfeln",
+    title: "Hiker-Mountain-Lake-4477"
   }
 ];
